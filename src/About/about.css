@@ -1,0 +1,14 @@
+p {
+    color: white;
+    text-align: center;
+}
+
+.about_header {
+    margin-top: 10%;
+}
+
+.portrait {
+    max-width: 90%;
+    display: block;
+    margin: 10px auto;
+}
