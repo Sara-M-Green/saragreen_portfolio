@@ -1,12 +1,23 @@
 p {
     color: white;
     text-align: center;
-    margin: 0;
+    margin-bottom: 0;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .about_header {
     padding-top: 10%;
-    background-color: #1d4473;
+    background-color: transparent;
+    font-size: 32px;
+    font-family: 'Rubik', sans-serif;
+    text-shadow: 2px 2px 8px #000000, 0 0 20px #4d6a83;
+    
+}
+
+.about_text {
+    max-width: 93%;
+    margin: auto;
 }
 
 .portrait {
@@ -17,5 +28,5 @@ p {
 }
 
 #about_container {
-    background-color: #1d4473;
+    background-image: linear-gradient(to top, #1d4473, #0f4c77, #005379, #005a7b, #02617b, #176a7e, #287281, #377b84, #4a888b, #5d9693, #71a39b, #84b0a4);
 }
