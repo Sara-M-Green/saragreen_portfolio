@@ -30,8 +30,8 @@ class Navbar extends Component {
             <nav className={this.state.show ? "active" : "hidden"}>
                 <ul id="nav">
                     <li><a href="home_container">Home</a></li>
-                    <li><a href="#about_container">About</a></li>
                     <li><a href="#projects_container">Projects</a></li>
+                    <li><a href="#about_container">About</a></li>
                     <li><a href="#contact_container">Contact Me</a></li>
               </ul>
             </nav>
