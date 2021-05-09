@@ -19,6 +19,7 @@ p {
   font-size: 38px;
   font-family: 'Rubik', sans-serif;
   text-shadow: 2px 2px 8px #000000, 0 0 20px #4d6a83;
+  text-decoration: underline;
 }
 
 

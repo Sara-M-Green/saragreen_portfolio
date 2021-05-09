@@ -7,17 +7,19 @@ p {
 }
 
 .section_header1 {
-    padding-top: 85px;
+    padding-top: 65px;
     padding-bottom: 25px;
     background-color: transparent;
     font-size: 38px;
     font-family: 'Rubik', sans-serif;
     text-shadow: 2px 2px 8px #000000, 0 0 20px #4d6a83;
-  }
+    text-decoration: underline;
+}
 
 .about_text {
     max-width: 93%;
     margin: auto;
+    padding-bottom: 30px;
 }
 
 .portrait {

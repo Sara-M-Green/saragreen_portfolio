@@ -6,9 +6,20 @@
 }
 
 .project_title {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto', sans-serif;
     color: rgb(255 255 255 / 85%);
+    font-size: 22px;
+    text-decoration: underline;
 }
+
+.project_title:hover {
+    font-size: 23px;
+}
+
+.project_link {
+    text-decoration: none;
+}
+
 
 .projects_screenshot {
     max-width: 300px;
@@ -40,5 +51,6 @@
 }
 
 .github:hover {
-    color: hsla(274, 54%, 35%, 0.815);
+    /* color: hsla(274, 54%, 35%, 0.815); */
+    font-size: 17px;
 }

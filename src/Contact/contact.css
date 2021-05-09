@@ -1,5 +1,5 @@
 form {
-    padding-bottom: 45px;
+    padding-bottom: 25px;
 }
 
 form label {
@@ -35,6 +35,15 @@ form button {
     padding: 5px 15px;
     margin: auto;
     margin-top: 15px;
+}
+
+.logo {
+    max-width: 120px;
+    margin: 10px auto;
+}
+
+.social-media {
+    text-align: center;
 }
 
 #contact_container {

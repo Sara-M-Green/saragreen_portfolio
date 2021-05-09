@@ -17,7 +17,10 @@ h2 {
 }
 
 .photo {
-    max-width: 80%;
+    max-height: 300px;
+    max-width: 100%;
+    /* border-radius: 50%; */
+    margin-top: 10px;
 }
 
 #home_container {
@@ -32,7 +35,7 @@ h2 {
 .home_bubble {
     text-align: center;
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -50,7 +53,7 @@ h2 {
     text-transform: uppercase;
     text-align: center;
     font-size: 18px;
-    padding: 0.55em 2.1em;
+    padding: 0.55em 3.1em;
     border: 2px solid #4d6a83;
     margin: 20px auto;
     border-radius:0.12em;
@@ -62,7 +65,7 @@ h2 {
     text-align:center;
     transition: all 0.3s ease 0s;
     background-color: #4d6a83;
-    width: 200px;
+    width: 300px;
 }
 
 #home_btn:hover {

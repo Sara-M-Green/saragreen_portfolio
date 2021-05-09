@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import './contact.css'
+import linkedin from '../images/linkedin-logo.png'
+import github from '../images/github-logo.png'
 
 class Contact extends Component {
     render() {
@@ -20,6 +22,10 @@ class Contact extends Component {
                                 <button type="submit">SEND</button>
                             </form>
                     </div>
+                    <div className="social-media">
+                        <a href="https://www.linkedin.com/in/saragreen91/" target="blank"><img className="logo" src={linkedin} alt="LinkedIn logo" /></a>
+                        <a href="https://github.com/Sara-M-Green" target="_blank"><img className="logo" src={github} alt="GitHub logo" /></a>
+                    </div> 
             </ div>
         )
     }

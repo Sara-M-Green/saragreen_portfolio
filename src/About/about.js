@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import me from '../images/IMG_5237.jpg'
+import me from '../images/climb.jpg'
 import './about.css'
 import Navbar from '../Navbar/navbar'
 
