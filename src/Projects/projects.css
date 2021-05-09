@@ -5,36 +5,40 @@
     padding-top: 100px;
 }
 
-.projects_header {
-    margin: 0;
-    padding: 20px;
-    font-size: 32px;
-    font-family: 'Rubik', sans-serif;
-    text-shadow: 2px 2px 8px #000000, 0 0 20px #4d6a83;
+.project_title {
+    font-family: 'Roboto Slab', serif;
+    color: rgb(255 255 255 / 85%);
 }
 
 .projects_screenshot {
     max-width: 300px;
     display: block;
-    margin: 25px auto;
+    margin: 7px auto;
     border-radius: 12px;
 }
 
 .projects_screenshot {
-    transition: all 0.3s ease 0s;
+    transition: all 0.2s ease 0s;
 }
 
 .projects_screenshot:hover{
-    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.7) ;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.733) ;
+}
+
+.project_desc {
+    max-width: 90%;
+    margin: auto
 }
 
 .github {
     display: block;
     margin: auto;
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
+    color: rgb(255 255 255 / 60%);
+    font-family: 'Roboto Slab', serif
 }
 
 .github:hover {
-    color: teal;
+    color: hsla(274, 54%, 35%, 0.815);
 }

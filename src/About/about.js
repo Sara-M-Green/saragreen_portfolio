@@ -8,7 +8,7 @@ class About extends Component {
         return (
             <div id="about_container">
                 <Navbar />
-                    <h1 className="caps about_header">About Me</h1>
+                    <h1 className="caps section_header">About Me</h1>
                     <img className="portrait" src={me} alt="self-portrait" />
                     <div className="about_text">
                         <p>I am an adventure enthusiast who loves to code! I graduated from Florida State University with a Master of Science in Marketing degree and have since transitioned into the computer science industry. I enjoy the analytical nature of coding along with the ability to express creativity.</p>

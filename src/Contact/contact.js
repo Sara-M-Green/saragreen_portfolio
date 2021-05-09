@@ -5,7 +5,7 @@ class Contact extends Component {
     render() {
         return (
             <div id="contact_container">
-                    <h1 className="caps contact_header">Contact Me</h1>
+                    <h1 className="caps section_header">Contact Me</h1>
                     <div className="email-form">
                             <form action="https://formspree.io/f/xrgoeoyp" method="POST">
                                 <label htmlFor="name">Name:</label>

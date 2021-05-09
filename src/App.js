@@ -1,9 +1,9 @@
 import React from 'react'
 import Home from './Home/home'
 import About from './About/about'
-import Navbar from './Navbar/navbar'
 import Projects from './Projects/projects'
 import Contact from './Contact/contact'
+import Footer from './Footer/footer'
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
       <About />
       <Projects />
       <Contact />
+      <Footer />
     </div>
   );
 }

@@ -9,7 +9,7 @@ class Projects extends Component {
     render() {
         return (
             <div id="projects_container">
-                    <h1 className="caps projects_header">Projects</h1>
+                    <h1 className="caps section_header">Projects</h1>
                     
                     {/* project 1 */}
                     <a href="https://sierra-summits.vercel.app/" target="blank"><h2 className="project_title">Sierra Summits</h2></a>
