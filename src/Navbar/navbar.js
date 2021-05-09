@@ -9,8 +9,9 @@ class Navbar extends Component {
             <div>
                 <ul id="nav">
                     <li><Link to={"/"}>Home</Link></li>
-                    <li><Link to={"/about"}>About</Link></li>
-                    <li><Link to={"/contact"}>Contact Me</Link></li>
+                    <li><a href="#about_container">About</a></li>
+                    <li><a href="#projects_container">Projects</a></li>
+                    <li><a href="#contact_container">Contact Me</a></li>
                 </ul>
             </div>
         )
