@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './projects.css'
 import quiz from '../images/quiz-app-screenshot.png'
-import pownow from '../images/pow-now-screenshot.png'
+import pownow from '../images/pownow-screenshot.png'
 import turbotips from '../images/turbo-tips-screenshot.png'
 import sierrasummits from '../images/sierra-summits-screenshot.png'
 
