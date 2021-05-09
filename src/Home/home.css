@@ -52,8 +52,8 @@ h2 {
     display: flex;
     text-transform: uppercase;
     text-align: center;
-    font-size: 18px;
-    padding: 0.55em 3.1em;
+    font-size: 16px;
+    padding: 0.55em 1.0em;
     border: 2px solid #4d6a83;
     margin: 20px auto;
     border-radius:0.12em;
@@ -65,7 +65,7 @@ h2 {
     text-align:center;
     transition: all 0.3s ease 0s;
     background-color: #4d6a83;
-    width: 300px;
+    max-width: 200px;
 }
 
 #home_btn:hover {
