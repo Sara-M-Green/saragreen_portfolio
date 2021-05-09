@@ -16,7 +16,11 @@ h2 {
     text-align: center;
 }
 
-.home_container {
+.photo {
+    max-width: 80%;
+}
+
+#home_container {
     background-image: url('../images/cool-background.png');
     height: 812px;
     background-size: cover;

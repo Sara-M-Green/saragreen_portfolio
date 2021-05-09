@@ -1,8 +1,8 @@
 #projects_container {
     background-image: linear-gradient(to bottom, #1d4473, #0f4c77, #005379, #005a7b, #02617b, #176a7e, #287281, #377b84, #4a888b, #5d9693, #71a39b, #84b0a4);
     height: 100%;
-    padding-bottom: 100px;
-    padding-top: 100px;
+    padding-bottom: 25px;
+    padding-top: 70px;
 }
 
 .project_title {
