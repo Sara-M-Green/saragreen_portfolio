@@ -33,17 +33,20 @@ form button {
     border-radius: 5px;
     border: none;
     background-color:#1d4473;
+    
     color: white;
     padding: 5px 15px;
     margin: auto;
     margin-top: 15px;
 }
 
+form button:hover {
+    padding: 6px 16px;
+}
 
-a.email-link:link {color: #1d4473;}
-a.email-link:hover {color: #1a6a7a;}
-a.email-link:visited {color: #1d4473;}
-a.email-link:active {color: #1a6a7a;}
+a.email-link:link {color:#d6f1f6;}
+a.email-link:hover {color: #97dbe9;}
+a.email-link:visited {color: #97dbe9;}
 
 .logo {
     max-width: 120px;
@@ -51,7 +54,12 @@ a.email-link:active {color: #1a6a7a;}
 }
 
 .social-media {
-    text-align: center;
+    background-color: white;
+    width: fit-content;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
 }
 
 .contact_text {
@@ -59,7 +67,7 @@ a.email-link:active {color: #1a6a7a;}
 }
 
 #contact_container {
-    background-color: #84b0a4;
+    background-color: #1a6a7a;
     padding-top: 90px;
     padding-bottom: 60px;
 }
