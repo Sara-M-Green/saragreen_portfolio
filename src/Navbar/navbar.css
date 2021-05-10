@@ -49,3 +49,10 @@ nav {
     transition: all 0.2s;
     transform: translateY(-100%);
 }
+
+@media all and (min-width: 800px){
+    #nav li {
+        padding-left: 30px;
+    }
+
+}
