@@ -19,7 +19,7 @@ h2 {
 .photo {
     max-height: 300px;
     max-width: 100%;
-    /* border-radius: 50%; */
+    border-radius: 50%;
     margin-top: 10px;
 }
 

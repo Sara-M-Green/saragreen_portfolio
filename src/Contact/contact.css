@@ -1,5 +1,7 @@
 form {
-    padding-bottom: 25px;
+    padding-bottom: 45px;
+    max-width: 700px;
+    margin: auto
 }
 
 form label {
@@ -37,6 +39,12 @@ form button {
     margin-top: 15px;
 }
 
+
+a.email-link:link {color: #1d4473;}
+a.email-link:hover {color: #1a6a7a;}
+a.email-link:visited {color: #1d4473;}
+a.email-link:active {color: #1a6a7a;}
+
 .logo {
     max-width: 120px;
     margin: 10px auto;
@@ -44,6 +52,10 @@ form button {
 
 .social-media {
     text-align: center;
+}
+
+.contact_text {
+    margin-bottom: 20px;
 }
 
 #contact_container {
