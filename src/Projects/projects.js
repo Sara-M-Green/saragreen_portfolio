@@ -46,8 +46,8 @@ class Projects extends Component {
                     <div className="flex_item">
                         <a className="project_link" href="https://turbotips.vercel.app/" target="blank" rel="noopener noreferrer"><h2 className="project_title">Turbo Tips</h2></a>
                         <a href="https://turbotips.vercel.app/" target="blank" rel="noopener noreferrer"><img className="projects_screenshot" src={turbotips} alt="Turbo Tips Screenshot" /></a>
-                            <p className="project_desc">Turbo Tis is a bartender tip out application for employees at Shelter Distilling. It eliminates manual tip calculations and errors, stores tip data, and shows accumulated tip totals for each employee in a specified date range.</p>
-                            <p className="project_desc">This is a full-stack project built with React, Node, Express and PostgreSQL. This project displays React my skills using resuable components with props, state and event handling functions. Turbo tips uses a relational database, and CRUD operations for a RESTful API.</p>
+                            <p className="project_desc">Turbo Tips is a bartender tip out application for employees at Shelter Distilling. It eliminates manual tip calculations and errors, stores tip data, and shows accumulated tip totals for each employee in a specified date range.</p>
+                            <p className="project_desc">This is a full-stack project built with React, Node, Express and PostgreSQL. This project displays my React skills using reusable components with props, state and event handling functions. Turbo tips uses a relational database, and CRUD operations for a RESTful API.</p>
                             <a href="https://github.com/Sara-M-Green/shelter-tipout-client" target="blank" rel="noopener noreferrer" className="github">GitHub Repo</a>
                     </div>
                 
